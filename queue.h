@@ -7,7 +7,7 @@
 #define true  1
 #define false 0
 
-typedef struct Queue {
+typedef struct queue {
 	int** data;
 	int arrSize;
 	int length; // number of items in the queue

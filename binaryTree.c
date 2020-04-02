@@ -18,6 +18,7 @@ void freeTree(binaryTree* tree) {
 			push(nodes, (int*)curNode->right);
 		free(curNode);
 	}
+	freeQueue(nodes);
 	free(tree);
 }
 

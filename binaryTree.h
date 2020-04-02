@@ -6,13 +6,13 @@
 
 #include "queue.h"
 
-typedef struct Node {
+typedef struct node {
 	int data;
 	struct node* left;
 	struct node* right;
 } node;
 
-typedef struct BinaryTree {
+typedef struct binaryTree {
 	node* head;
 } binaryTree;
 
